@@ -1,0 +1,305 @@
+/*index*/
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.nav-item {
+  font-size: 19px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fs-4 {
+  color: #F2F2F2;
+}
+
+.container {
+  background-color: #4F758C;
+  margin: auto;
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+
+}
+
+.text:hover {
+  border: 3px solid #2F2B8C;
+  border-radius: 50px;
+  transition: 1s ease-in-out;
+  color: #F2F2F2;
+
+}
+
+.colorfoot {
+  color: #F2F2F2;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+/*header footer*/
+/*carusel*/
+.picture {
+  background-image: url(img/background.jpg);
+  height: 500px;
+  margin-left: 9%;
+  margin-right: 9%;
+  border: 5px solid #2F2B8C;
+  box-shadow: 0px 0px 60px 8px #2F2B8C;
+}
+
+.picture::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/*carusel*/
+
+
+.zag1 {
+
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.zag1 h2 {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  color: black;
+  font-size: 3em;
+  font-weight: normal;
+  line-height: 1;
+  padding: 1px 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.zag1 h2:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 200%;
+  border-radius: 50%/30%;
+  border: 6px solid #2F2B8C;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+@media (max-width: 420px) {
+  .two h1 {
+    font-size: 2em;
+  }
+}
+
+.picture {
+  text-align: center;
+}
+
+.sometext {
+  padding-top: 80px;
+}
+
+.prosto {
+  text-align: center;
+}
+
+.row {
+  text-align: center;
+}
+
+.col-3 {
+  margin-left: 5%;
+  margin-right: 3%;
+
+}
+
+/*svg*/
+.svgcol {
+  width: 50px;
+  height: auto;
+}
+
+.texttop {
+  padding-top: 10px;
+}
+
+/*svg*/
+
+
+.color-svg {
+  fill: #F2F2F2;
+  width: 50px;
+  height: 50px;
+}
+
+.color-svg-foot {
+  fill: #F2F2F2;
+}
+
+
+
+
+
+
+
+.marginefortext {
+  margin: auto;
+}
+
+.textcenter {
+  text-align: center;
+
+}
+
+.tehobsl {
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+
+.diadnost {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.imgcarusel {
+  width: 600px;
+  height: 400px;
+}
+
+.youtube {
+  margin: auto;
+  max-width: 100%;
+}
+
+.zapus-row {
+  background-color: #deddff;
+
+}
+
+
+
+.imgback {
+  background-size: cover;
+  background: no-repeat;
+  height: 300px;
+}
+
+
+/* Настраиваем внешний вид полей ввода*/
+input {
+  display: inline-block;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+
+textarea {
+  display: inline-block;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+.behmapbackl {
+  background-color: #2F2B8C;
+  padding-top: 5%;
+  clip-path: polygon(0 0, 100% 0%, 100% 80%, 0 90%);
+  color: #F2F2F2;
+}
+
+.behmapbackr {
+  background-color: #2F2B8C;
+  padding-top: 5%;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+  color: #F2F2F2;
+}
+
+
+.diadnost1 {
+  margin: auto;
+
+}
+
+.row-padding {
+  padding-top: 3%;
+}
+
+.last-row {
+  margin-bottom: 3%;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+  background: #2F2B8C !important;
+}
+
+#accordion {
+  width: 500px;
+  margin: auto;
+}
+
+.carousel {
+  margin: auto;
+}
+
+.carousel-inner {
+  margin: auto;
+}
+
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.gentium {
+  font-family: 'Gentium Plus', serif;
+}
+
+@media screen and (max-width: 1150px) {
+  .behmapbackr {
+    background-color: #2F2B8C;
+    padding-top: 5%;
+    clip-path: polygon(4% 0, 100% 0%, 100% 100%, 4% 90%);
+    color: #F2F2F2;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .behmapbackl {
+    background-color: #2F2B8C;
+    padding-top: 5%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    color: #F2F2F2;
+  }
+
+  .behmapbackr {
+    background-color: #2F2B8C;
+    padding-top: 5%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    color: #F2F2F2;
+  }
+}

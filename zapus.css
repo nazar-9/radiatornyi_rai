@@ -1,0 +1,169 @@
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.nav-item {
+  font-size: 19px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.fs-4{
+  color: #F2F2F2;
+}
+.container {
+  background-color: #4F758C;
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  padding: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+
+}
+
+.text:hover {
+  border: 3px solid #2F2B8C;
+  border-radius: 50px;
+  transition: 1s ease-in-out;
+  color: #F2F2F2;
+
+}
+.colorfoot{
+  color: #F2F2F2;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+body {
+  background: #deddff url(img/zapus/background1.jpg) repeat-y;;
+  height: 97vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.textpafos{
+  color: white;
+  padding-top: 5%;
+}
+
+
+input {
+  display: inline-block;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+textarea {
+  display: inline-block;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 10px 20px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+}
+.textpafos{
+  text-align: center;
+  
+}
+
+.color-svg{
+  fill: #F2F2F2;
+  width: 50px;
+  height: 50px;
+}
+
+.color-svg {
+  fill: #F2F2F2;
+  width: 50px;
+  height: 50px;
+}
+
+.color-svg-foot {
+  fill: #F2F2F2;
+}
+
+.footer-bottom{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.zapusr{
+  margin: auto;
+  text-align: center;
+  
+}
+
+a.button {
+  display: inline-block;
+  background: #2F2B8C;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+.buttondiv {
+  margin: 24px;
+  text-align: center;
+}
+.button:hover{
+  color: #fff;
+  background: #4F758C;
+}
+.nunito{
+  font-family: 'Nunito', sans-serif;
+}
+.gentium{
+font-family: 'Gentium Plus', serif;
+}
+
+
+.ui-selectmenu-button.ui-button {
+  text-align: left;
+  white-space: nowrap;
+  width: 25.5em !important;
+}
+
+/*івіфвфвіфвфів*/
+.third {
+  border-color: #2F2B8C;
+  color: #F2F2F2;
+  box-shadow: 0 0 40px 40px #2F2B8C inset, 0 0 0 0 #2F2B8C;
+ 
+  transition: all 150ms ease-in-out;
+  margin-top: 2%;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.buttontext{
+  color: #F2F2F2;
+  
+}
+
+
+@media screen and (max-width: 769px) {
+  .zapusr{
+    margin: 20% auto;
+  }
+}

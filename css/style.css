@@ -1,0 +1,23 @@
+body {
+  background: rgb(129, 162, 166);
+  background: linear-gradient(45deg, rgba(129, 162, 166, 1) 28%, rgba(204, 217, 215, 1) 81%);
+}
+
+.nav-link {
+  color: #012626;
+}
+
+.nav-link:hover {
+  color: #57052a;
+}
+
+.container-fluid {
+  background: rgb(129, 162, 166);
+  background: linear-gradient(45deg, rgba(129, 162, 166, 1) 28%, rgba(204, 217, 215, 1) 81%);
+}
+
+.carousel {
+  padding-left: 6%;
+  padding-right: 5%;
+}
+
